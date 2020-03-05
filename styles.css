@@ -1,0 +1,61 @@
+
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid seagreen;
+    border-radius: 5px;
+    background-color: black;
+    height: 50px;
+    align-content: center;
+}
+
+
+.left-bar-buttons, .right-bar-buttons {
+    float: left;
+    padding: 8px;
+    border-radius: 7px;
+    color: white;
+}
+
+.left-bar-buttons > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+
+.left-bar-buttons a:hover {
+    border-bottom: 1px solid yellow;
+    transition: border-bottom;
+}
+
+.right-bar-buttons a:hover {
+    border-bottom: 1px solid yellow;
+    transition: border-bottom;
+}
+
+
+
+
+.right-bar-buttons a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.main-content {
+    text-align: left;
+    background-image: url('images/default_bg.png') ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 25px;
+    padding: 25px;
+    color: white;
+}
+
+#signUpform {
+    padding: 10px;
+}
