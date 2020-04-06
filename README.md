@@ -1,3 +1,0 @@
-# sonetWebDev
-
-# Just ignore this
